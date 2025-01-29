@@ -1,0 +1,27 @@
+# Mérési Jegyzőkönyv
+
+Komplex Távközlési Hálózat Tervezése, Telepítése és Mérése
+
+## 1. Mérés célja
+
+
+
+
+## 2. Felhasznált Eszközök
+
+- Mikrotik LHG18 LTE antenna
+- Mikrotik nRay 60GHz mikrohullámú antenna szett
+- D-LINK vagy TP-LINK vagy ASUS SOHO router
+- HP switch
+- Laptop vagy PC
+- iperf szoftver
+
+## 3. IP-cím kiosztás
+
+- Mikrotik LHG18 LTE: 192.168.88.1
+- Mikrotik nRay 60GHz Master: 192.168.88.2
+- Mikrotik nRay 60GHz Slave: 192.168.88.3
+- Router (AP mód): 192.168.88.4
+- Switch (ha szükséges): 192.168.88.254
+- Kliens laptop: 192.168.88.100-250 (DHCP-ből)
+
